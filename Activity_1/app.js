@@ -10,9 +10,8 @@ function funcionGeneral() {
     navigator.geolocation.getCurrentPosition(async pos => {
 
         var lat = pos.coords.latitude;
-
         var lon = pos.coords.longitude;
-
+        
         var apikey = "82005d27a116c2880c8f0fcb866998a0"
 
         try {
